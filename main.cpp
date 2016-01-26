@@ -47,7 +47,7 @@ int main() {
 		else {
 			if (previousZip != 0)
 				fout << "]}," << endl;
-			fout << zip << ": {\"state\": \"" << state << "\", \"districts\": [\"" << district << "\"";
+			fout << "\"" << zip << "\": {\"state\": \"" << state << "\", \"districts\": [\"" << district << "\"";
 		}
 		previousZip = zip;
 	}
